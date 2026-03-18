@@ -18,7 +18,7 @@ function App() {
     try {
       setLoading(true);
 
-      const res = await axios.post("http://localhost:5000/analyze", {
+      const res = await axios.post("https://ai-symptom-checker-1-xo4o.onrender.com", {
         age,
         gender,
         symptoms
